@@ -8,7 +8,7 @@ Cheat Sheets, Methodologies etc.
 
 [https://github.com/ice3man543/subfinder](https://github.com/ice3man543/subfinder)
 
-`subfinder/subfinder -d domain.name -o /path/to/output`
+`subfinder -d domain.name -o /path/to/output`
 
 
 ## DNS Resolving
@@ -17,7 +17,7 @@ Cheat Sheets, Methodologies etc.
 
 [https://github.com/blechschmidt/massdns](https://github.com/blechschmidt/massdns)
 
-`./massdns/bin/massdns -r ./massdns/lists/resolvers.txt -t A -o S /path/to/subfinderoutput/ > /path/to/output`
+`massdns -r ./massdns/lists/resolvers.txt -t A -o S /path/to/subfinderoutput > /path/to/output`
 
 Get uniq IPs:
 
@@ -29,4 +29,4 @@ Get uniq IPs:
 
 [https://github.com/robertdavidgraham/masscan](https://github.com/robertdavidgraham/masscan)
 
-`./masscan/bin/masscan -iL UniqIPs.txt -p<portrange> --rate <somerate> > /path/to/output`
+`masscan -iL UniqIPs.txt -p<portrange> --rate <somerate> > /path/to/output`
