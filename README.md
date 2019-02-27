@@ -23,7 +23,7 @@ Get uniq IPs:
 
 `cat /path/to/massdnsoutput | grep -E "A " | sed 's/.*A //' | sort | uniq > UniqIPs.txt`
 
-## Port scanning
+## Port Scanning
 
 ### Masscan
 
